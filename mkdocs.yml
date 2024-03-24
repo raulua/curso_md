@@ -1,0 +1,24 @@
+site_name: My Docs PIAR I
+docs_dir: 'md'
+site_dir: 'docs'
+nav:
+   - Home: index.md
+   - Tasques:
+      - Tasca 1: tasques/modul1.md
+      - Tasca 2: tasques/modul2.md
+      - Tasca 3: tasques/modul3.md
+   - About: about.md
+#plugins:
+#   - pdf-export # plugin per exportar a pdf
+theme:
+   name: material
+   features:
+      - content.code.copy
+      - content.code.select
+      - content.code.annotate
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+
